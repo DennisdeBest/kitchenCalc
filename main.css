@@ -1,0 +1,51 @@
+body {
+    background-color: red !important;
+}
+#columnLeft input, #columnRight input {
+    width: 100%;
+    height: 19px;
+}
+#columnRight, #columnLeft {
+    padding: 0px 10px;
+}
+h3 {
+    font-weight: 700;
+    text-align: center;
+    font-size: 1.6em;
+    color: darkgray;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+#labels {
+    padding: 0px 10px;
+}
+
+#calc {
+    display: flex;
+    flex-flow: row nowrap ;
+    justify-content: space-around;
+    max-width: 400px;
+    margin: auto;
+    border: 2px solid darkgray;
+    padding-bottom:15px;
+    padding-right:10px;
+    box-sizing: border-box;
+}
+select {
+    width: 100%;
+}
+input[type="text"]
+{
+    padding: 0.4em 0.25em;
+    width: 100%;
+    background: transparent;
+    color: #AFB5BB;
+    font-size: 1.5em;
+    border-top: 1px dashed darkgray;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 3px;
+}
+input[type="text"]:last-child{
+    border-bottom: 1px dashed darkgray;
+}
